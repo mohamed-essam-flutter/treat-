@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" viewBox="0 0 19 20">
+  <g id="Group_230" data-name="Group 230" transform="translate(-0.257)">
+    <path id="bx-question-mark" d="M10.458,4A3.462,3.462,0,0,0,7,7.458H8.383a2.075,2.075,0,1,1,4.149,0c0,.739-.314,1.013-1.024,1.559a8.485,8.485,0,0,0-.848.718,2.694,2.694,0,0,0-.894,1.872V12.99h1.383V11.6a1.437,1.437,0,0,1,.489-.888,7.257,7.257,0,0,1,.713-.6,3.105,3.105,0,0,0,1.564-2.656A3.462,3.462,0,0,0,10.458,4Zm-.692,9.682h1.383v1.383H9.766Z" transform="translate(-0.829 0.968)" fill="#4a5a51"/>
+    <g id="Ellipse_32" data-name="Ellipse 32" transform="translate(0.257)" fill="none" stroke="#4a5a51" stroke-width="2">
+      <ellipse cx="9.5" cy="10" rx="9.5" ry="10" stroke="none"/>
+      <ellipse cx="9.5" cy="10" rx="8.5" ry="9" fill="none"/>
+    </g>
+  </g>
+</svg>
