@@ -78,12 +78,13 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   context: context,
                   builder: (context) {
                     return Container(
-                      height: MediaQuery.of(context).size.height * 0.3999,
+                      // height: MediaQuery.of(context).size.height * 0.3999, 
                       width: MediaQuery.of(context).size.width,
                       color: ColorsManager.scaffoldBackgroundColor,
                       child: Padding(
                         padding: const EdgeInsets.all(30.0),
                         child: Column(
+                          mainAxisSize: MainAxisSize.min,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Align(
@@ -167,17 +168,16 @@ class _RegisterScreenState extends State<RegisterScreen> {
               },
             ),
             SizedBox(height: 12.h),
-            SafeArea(
-              top: false,
-              child: CustomButton(
-                lable: tr('back'),
-                onTap: () {
-                  Navigator.pop(context);
-                },
-                backgroundColor: Color(0xffF6F6F6),
-                textColor: ColorsManager.primary,
-              ),
+            CustomButton(
+              borderColor: ColorsManager.primary,
+              lable: tr('back'),
+              onTap: () {
+                Navigator.pop(context);
+              },
+              backgroundColor: Color(0xffF6F6F6),
+              textColor: ColorsManager.primary,
             ),
+            SizedBox(height: 12.h), 
           ],
         ),
       ),

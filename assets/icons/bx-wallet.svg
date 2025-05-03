@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18">
+  <g id="bx-wallet" transform="translate(-2 -3)">
+    <path id="Path_1024" data-name="Path 1024" d="M16,12h2v4H16Z" fill="#fff"/>
+    <path id="Path_1025" data-name="Path 1025" d="M20,7V5a2,2,0,0,0-2-2H5A3,3,0,0,0,2,6V18a2.916,2.916,0,0,0,3,3H20a2,2,0,0,0,2-2V9A2,2,0,0,0,20,7ZM5,5H18V7H5A1,1,0,0,1,5,5ZM20,19H5.012A.919.919,0,0,1,4,18V8.815A2.938,2.938,0,0,0,5,9H20Z" fill="#fff"/>
+  </g>
+</svg>

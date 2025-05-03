@@ -22,7 +22,7 @@ class ProfileScreen extends StatelessWidget {
             width: 20.w,
             height: 20.h,
           ),
-          SizedBox(width: 5.w),
+          SizedBox(width: 15.w),   
           Stack(
             clipBehavior: Clip.none,
             children: [
@@ -63,29 +63,46 @@ class ProfileScreen extends StatelessWidget {
           children: [
             Row(
               children: [
-                SvgPicture.asset(
-                  'assets/icons/Back.svg',
-                  width: 21.w,
-                  height: 19.h,
-                ),
+               context.locale.languageCode == 'en'
+                    ? SvgPicture.asset(
+                        'assets/icons/Back.svg',
+                        width: 21.w,
+                        height: 19.h,
+                      )
+                    : RotatedBox(
+                        quarterTurns: 2,
+                        child: SvgPicture.asset(
+                          'assets/icons/Back.svg',
+                          width: 21.w,
+                          height: 19.h,
+                        ),
+                      ),
                 Spacer(),
                 Text('My Account', style: TextStyles.font21PrimarySemiBold),
               ],
             ),
             SizedBox(height: 20.h,),
-            InkWell(
+            GestureDetector(
               onTap: () {
-                
+                Navigator.pushNamed(context, RoutesManager.editProfileScreen);
               },
               child: CustomCardScreen(icon: 'assets/icons/profile.svg',name: 'Profile'.tr(),)),
             SizedBox(height: 8.h,),
             Divider(thickness:1 ,),
             SizedBox(height: 8.h,),
-            InkWell(child: CustomCardScreen(icon: 'assets/icons/point.svg',name: 'My Points'.tr(),)),
+            GestureDetector(
+               onTap: () {
+                Navigator.pushNamed(context, RoutesManager.myPointScreen);
+              },
+              child: CustomCardScreen(icon: 'assets/icons/point.svg',name: 'My Points'.tr(),)),
             SizedBox(height: 8.h,),
             Divider(thickness:1 ,),
             SizedBox(height: 8.h,),
-            CustomCardScreen(icon: 'assets/icons/wallet.svg',name: 'My Wallet'.tr(),),
+            GestureDetector(
+               onTap: () {
+                Navigator.pushNamed(context, RoutesManager.myWalletScreen);
+              },
+              child: CustomCardScreen(icon: 'assets/icons/wallet.svg',name: 'My Wallet'.tr(),)),
             SizedBox(height: 8.h,),
             Divider(thickness:1 ,),
             SizedBox(height: 8.h,),

@@ -80,12 +80,13 @@ class AppTextFormField extends StatelessWidget {
         ),
         hintStyle: hintStyle ?? TextStyles.font14LightGrayRegular,
         hintText: hintText,
-        suffixIcon: suffixIcon != null?ConstrainedBox(constraints: BoxConstraints(
-             maxHeight: 24.h,
-              maxWidth: 24.w,
-        ),
-        child: suffixIcon!,
-        ):null,
+        suffixIcon: suffixIcon,
+        // suffixIcon: suffixIcon != null?ConstrainedBox(constraints: BoxConstraints(
+        //      maxHeight: 24.h,
+        //       maxWidth: 24.w,
+        // ),
+        // child: suffixIcon!,
+        // ):null,
         fillColor: backgroundColor ?? ColorsManager.white,
         filled: true,
         prefixIcon: prefixIcon != null?ConstrainedBox(constraints: BoxConstraints(

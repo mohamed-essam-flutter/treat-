@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.861" height="14.29" viewBox="0 0 12.861 14.29">
+  <g id="Group_180957" data-name="Group 180957" transform="translate(-370.518 -433)">
+    <g id="bx-calendar" transform="translate(370.518 433)">
+      <path id="Path_757" data-name="Path 757" d="M7,11H8.4v1.461H7Zm0,2.922H8.4v1.461H7ZM9.806,11h1.4v1.461h-1.4Zm0,2.922h1.4v1.461h-1.4ZM12.613,11h1.4v1.461h-1.4Zm0,2.922h1.4v1.461h-1.4Z" transform="translate(-4.078 -4.632)" fill="#4a5a51"/>
+      <path id="Path_758" data-name="Path 758" d="M4.429,16.29h10a1.43,1.43,0,0,0,1.429-1.429v-10a1.43,1.43,0,0,0-1.429-1.429H13V2H11.574V3.429H7.287V2H5.858V3.429H4.429A1.43,1.43,0,0,0,3,4.858v10A1.43,1.43,0,0,0,4.429,16.29Zm10-10v8.574h-10V6.287Z" transform="translate(-3 -2)" fill="#4a5a51"/>
+    </g>
+  </g>
+</svg>
